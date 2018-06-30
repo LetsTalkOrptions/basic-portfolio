@@ -2,79 +2,65 @@
     box-sizing: border-box;
 }
 
-
-header {
-    height: auto;
-    width: 960px;
-    background-color: #ffffff;
-    border-bottom: 4px solid #cccccc;
-    margin: 0 auto;
-    z-index: 1;
-
-}
-
 body {
     background-image: url(../images/light-grey-terrazzo.png);
-    max-height: 960px;
 }
 
-h1 {
+.name {
     font-size: 28px;
     color:#ffffff;
     background-color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
     float: left;
-    display: inline-block;
-    border-bottom: 4px solid #cccccc;
-    width: 35%;
-    padding: 20px;
+    padding: 15px;
 }
-
 
 .nav {
-    float: left;
-    width: 50%;
+    width: 100%;
     text-align: right;
     display: inline-block;    
-    margin-top: 30px;
-    padding: 20px;
-    
+    height: auto;
+    background-color: #ffffff;
+    border-bottom: 4px solid #cccccc;
+    margin: 0 0 30px 0;
+    z-index: 1;
 }
 
+.nav-container {
+    width: 960px;
+    margin: 0 auto;
+    font-size: 28px;
+}
 .nav ul li {
     display: inline;
     font-size: 20px;
 }
 
-h2 {
-    overflow: auto;
-    clear: both;
+.about-me {
     color: #4aaaa5;
     font-size: 28px;
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-align: left;
+    padding-left: 10px;
 }
 
 .content {
     width: 960px;
+    height: 960px;
     background-color: #ffffff;
     padding: auto;
     margin: auto;
-    text-align: center;
+
 }
 
+.about-me {
+    font-size: 28px;
+}
 li {
     padding-left: 10px;
     padding-right: 10px;
     color: #777777;
 }
-
-#picture {
-    float: left;
-    padding-top: 0;
-    padding: 10px;
-}
-
 
 .nav a {
     color: #777777;
@@ -87,19 +73,21 @@ a:link {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     }
 
-
+.text {
+    font-size: 14px
+}
 p {
     color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-    
-}
-
-.list {
-    color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
 }
 
 #profile-pic {
     max-width: 200px;
     max-height: 200px;
+}
+
+#picture {
+    float: left;
+    padding-top: 0;
+    padding: 0 10px 0 0;
 }
